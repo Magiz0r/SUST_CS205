@@ -16,9 +16,9 @@ int main()
     h = 'b' - 32;
 
     //complete code here
-    cout << h << endl;
-    cout << a << endl;
-    cout << b << endl;
+    cout << h << endl; // B
+    cout << a << endl; // 41 becasue 19.99 + 21.99 = 41.98 but int a which the decimals are ignored
+    cout << b << endl; // 40 because int 19.99 = 19, then 19 + 21.99 = 40.99 -> 40
     cout << c << endl;
     cout << d << endl;
     cout << g << endl;
