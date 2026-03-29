@@ -16,12 +16,12 @@ int main()
     h = 'b' - 32;
 
     //complete code here
+    cout << h << endl;
     cout << a << endl;
-    cout << a << endl;
-    cout << a << endl;
-    cout << a << endl;
-    cout << a << endl;
-    cout << a << endl;
-    cout << a << endl;
+    cout << b << endl;
+    cout << c << endl;
+    cout << d << endl;
+    cout << g << endl;
+    cout << f << endl;
     return 0;
 }
