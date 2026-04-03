@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/CmakeDemo2.dir/src/factorial.cpp.o CMakeFiles/CmakeDemo2.dir/src/main.cpp.o CMakeFiles/CmakeDemo2.dir/src/printhello.cpp.o -o CmakeDemo2 

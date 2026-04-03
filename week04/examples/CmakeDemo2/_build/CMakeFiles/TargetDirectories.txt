@@ -1,0 +1,3 @@
+/home/zty/Personal_learning/SUST_cpp/CPP/week04/examples/CmakeDemo2/_build/CMakeFiles/CmakeDemo2.dir
+/home/zty/Personal_learning/SUST_cpp/CPP/week04/examples/CmakeDemo2/_build/CMakeFiles/edit_cache.dir
+/home/zty/Personal_learning/SUST_cpp/CPP/week04/examples/CmakeDemo2/_build/CMakeFiles/rebuild_cache.dir
