@@ -17,5 +17,9 @@ int main()
     *p2 = 30; // assign to num
     cout << "num = " << num << endl;
 
+    cout << &num << endl; // get address
+    cout << p1 << endl; // get address too, because p1 is pointing to num address
+    cout << *p1 << endl; // get the content of the address which p1 is pointing at
+
     return 0;
 }
