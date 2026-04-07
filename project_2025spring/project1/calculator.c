@@ -6,8 +6,6 @@
 void calculator1(char* operand[]) {
     int a = atoi(operand[1]);
     int b = atoi(operand[3]);
-    float c = atoi(operand[1]);
-    float d = atoi(operand[3]);
 
     switch (*operand[2]) {
         case '+':
@@ -24,7 +22,7 @@ void calculator1(char* operand[]) {
                 printf("A number cannot be divided by zero\n");
                 break;
             } else {
-            printf("%.0f / %.0f = %f\n", c, d, c / d);
+            printf("%d / %d = %f\n", a, b, (float)a / b);
             break;
             }
     }
