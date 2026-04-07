@@ -1,2 +1,2 @@
-Not finished\n
+Not finished  
 Not good enough
