@@ -17,12 +17,12 @@ class Student
         male = false;
         cout << "Constructor: Person()" << endl;
     }
-    Student(const char * initName, int initBorn, bool isMale)
+    Student(const char * name, int born, bool male)
     {
-        name =  new char[1024];
-        setName(initName);
-        born = initBorn;
-        male = isMale;
+        this->name =  new char[1024];
+        setName(name);
+        this->born = born;
+        this->male = male;
         cout << "Constructor: Person(const char, int , bool)" << endl;
         cout << "this = " << static_cast<void *>(this) << endl;        
     }
@@ -43,12 +43,12 @@ class Student
         strncpy(name, s, len);
         name[len] = '\0';
     }
-    void setBorn(int b)
+    void setBorn(int born)
     {
-        if (b >= 1990 && b <= 2020 )
-            born = b;
+        if (born >= 1990 && born <= 2020 )
+            this->born = born;
         else
-            std::cerr << "The input b is " << b << ", and should be in [1990, 2020]." << std::endl;
+            std::cerr << "The input b is " << born << ", and should be in [1990, 2020]." << std::endl;
     }
     // the declarations, the definitions are out of the class
     void setGender(bool isMale);
